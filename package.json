@@ -1,0 +1,11 @@
+{
+  "name": "abq-car",
+  "version": "1.0.0",
+  "description": "Albuquerque Catch a Ride - Website a user can use to find transportation resources. User's may also opt in to become a provider for the services offered through ABQ-CAR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "Andrew Spencer",
+  "license": "ISC"
+}
