@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './globals.css';
 import App from './App';
 import Footer from "./components/Footer";
-import {Navbarcomponent} from "./components/Navbar";
+import Navbar from "./components/Navbar";
 
 
 const root = ReactDOM.createRoot(
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-      <Navbarcomponent />
+      <Navbar />
     <App />
       <Footer />
   </React.StrictMode>
