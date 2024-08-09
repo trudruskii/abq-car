@@ -11,11 +11,11 @@ export default function Navbar() {
                     </a>
                     <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <button type="button"
-                                className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                                className="flex text-sm bg-gray-800 rounded-full md:me-0 dark:focus:ring-gray-600"
                                 id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown"
                                 data-dropdown-placement="bottom">
                             <span className="sr-only">Open user menu</span>
-                            <img className="w-8 h-8 rounded-full" src="/frontend/public/placeholder.person.png"
+                            <img className="w-16 h-16 rounded-2xl" src="/placeholder.person.png"
                                  alt="user photo"/>
                         </button>
                         <div
