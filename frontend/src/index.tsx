@@ -4,6 +4,7 @@ import './globals.css';
 import App from './App';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import 'flowbite/dist/flowbite.js'
 
 
 const root = ReactDOM.createRoot(
